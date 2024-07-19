@@ -1,0 +1,723 @@
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>
+		Clongriffin Community Centre
+	</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/icon.png">
+
+	<!-- Google font (font-family: 'Hind', sans-serif;) -->
+	<link href="../../css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Cusom css -->
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Modernizer js -->
+	<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+	<style>
+		/* width */
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+			background: #f1f1f1;
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: #888;
+		}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: #555;
+			}
+
+
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 45px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .my-float {
+            margin-top: 7px;
+        }
+
+        .float:hover {
+            color: white !important;
+        }
+
+        .my-float:hover {
+            color: white !important;
+        }
+
+        .copy2 .opinion {
+            position: fixed;
+            width: 50px;
+            bottom: 100px;
+            right: 45px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.5s ease-in-out;
+            z-index: 9999;
+        }
+
+        .opinions {
+            background-color: #fff;
+            border: 1px solid;
+            width: 25%;
+            position: fixed;
+            bottom: 160px;
+            right: 50px;
+            width: 280px;
+            border-radius: 5px;
+            border-bottom: 2px solid #ddd;
+            padding: 10px;
+            z-index: 999999;
+        }
+
+        a#scrollUp {
+            left: 40px;
+			right:unset;
+        }
+	</style>
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+	<!-- Add your site or application content here -->
+	<div class="fakeloader"></div>
+
+	<!-- Main wrapper -->
+	<div class="wrapper" id="wrapper">
+
+		<!-- Header -->
+		<header id="header-area" class="header-area sticky--header">
+			<div class="header header--style-2">
+				<!-- Header Top Area <-->
+				<div class="header__top bg--white">
+					<div class="container">
+						<div class="header__top__inner">
+							<div class="logo image--logo hidden-md hidden-sm hidden-xs">
+								<a href="#"><img src="images/logo/logo-theme.png" style="width: 150px;" alt="header logo"></a>
+							</div>
+							<div class="header__right">
+								<div class="header__right__top d-flex justify-content-end align-items-center flex-wrap flex-sm-nowrap">
+									<ul class="header__right__times d-flex justify-content-end">
+										<li>
+											<p><i class="icofont icofont-full-sunny"></i>SUNRISE : <span class="time-sunrise"></span></p>
+										</li>
+										<li>
+											<p><i class="icofont icofont-full-night"></i>SUNSET : <span class="time-sunset"></span></p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- //Header Top Area -->
+				<!-- Header Bottom Area -->
+				<div class="header__bottom bg--theme">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<!-- Main naviagtion -->
+								<nav class="menu">
+									<ul class="justify-content-center">
+										<li><a href="#">Home</a></li>
+										<li class="cr-dropdown">
+											<a href="#">About</a>
+											<ul class="cr-dropdown-menu">
+												<li><a href="#">Our Beliefs</a></li>
+												<li><a href="#">Founders</a></li>
+												<li><a href="#">Our Logo</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Events</a></li>
+										<li class="cr-dropdown">
+											<a href="#">Services</a>
+											<ul class="cr-dropdown-menu">
+												<li><a href="#">Prayer Times</a></li>
+												<li><a href="#">Marriage Services</a></li>
+												<li><a href="#">Divorce Services</a></li>
+												<li><a href="#">Financial Assistance</a></li>
+												<li><a href="#">Counseling Services</a></li>
+											</ul>
+										</li>
+										<li class="cr-dropdown">
+											<a href="#">Programs</a>
+											<ul class="cr-dropdown-menu">
+												<li><a href="#">Islamic Education</a></li>
+												<li><a href="#">Senior Program</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Articles</a></li>
+										<li><a href="#">Contact</a></li>
+									</ul>
+								</nav><!-- //Main naviagtion -->
+								<!-- Mobile Menu -->
+								<div class="mobile-menu hidden-lg hidden-xlg hidden-xx hidden-sp">
+									<a class="mobile-logo" href="#"><img src="images/logo/mobile-logo.png" alt="logo"></a>
+								</div><!-- //Mobile Menu -->
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- //Header Bottom Area -->
+
+
+
+			</div>
+		</header><!-- //Header -->
+		<!-- Top Banner -->
+		<div class="banner-area">
+			<div class="banner banner-slide-active fullscreen slide-animate-text slider-arrow--style1 arrow--dark">
+
+				<!-- Single Banner -->
+				<div class="banner__single right-side--bg fullscreen d-flex flex-wrap flex-md-nowrap justify-content-center align-items-center">
+					<div class="banner__content color--theme text-center">
+						<img src="images/others-png/bismilla-word-theme.png" alt="bismillah word">
+						<h3>O’ Allah we believe that</h3>
+						<h1>Only you can save us</h1>
+						<div class="banner__content__button">
+							<a href="#" class="cr-btn cr-btn--theme cr-btn--transparent cr-btn--sm"><span>Learn More</span></a>
+						</div>
+					</div>
+					<div class="banner__side-photo">
+						<img src="images/others-png/munajat.png" alt="banner side image">
+					</div>
+				</div><!-- //Single Banner -->
+				<!-- Single Banner -->
+				<div class="banner__single right-side--bg fullscreen d-flex justify-content-center flex-wrap flex-md-nowrap align-items-center">
+					<div class="banner__content color--theme text-center">
+						<img src="images/others-png/bismilla-word-theme.png" alt="bismillah word">
+						<h3>In the name of <strong>“Allah”</strong></h3>
+						<h1>Come to the straight path</h1>
+						<div class="banner__content__button">
+							<a href="#" class="cr-btn cr-btn--theme cr-btn--transparent cr-btn--sm"><span>Learn More</span></a>
+						</div>
+					</div>
+					<div class="banner__side-photo">
+						<img src="images/others-png/munajat.png" alt="banner side image">
+					</div>
+				</div><!-- //Single Banner -->
+
+			</div>
+		</div><!-- //Top Banner -->
+		<!-- Page Conent -->
+		<main class="page-content">
+
+			<!-- Pillar Of Islam -->
+			<section class="cr-section islams-pillar-area ptb--120 bg--pattern">
+				<div class="islams-pillars islams-pillars--style-2 d-flex justify-content-between justify-content-lg-center align-items-center flex-wrap flex-xl-nowrap flex-xx-nowrap flex-sp-nowrap">
+					<div class="islams-pillars__content text-left">
+						<h3>Every muslim needs to realise the </h3>
+						<h2>Importance of the “Piller” of Islam</h2>
+						<p>
+							<span>Islam</span> is the know how to pursue pleasure rationally encounter consequences that
+							are extremely painful. Nor again is there anyone who loves or pursues
+						</p>
+						<a href="#" class="cr-btn cr-btn--transparent cr-btn--dark cr-btn--sm">
+							<span>
+								Read
+								more
+							</span>
+						</a>
+					</div>
+					<div class="pillars d-flex justify-content-lg-between flex-md-wrap justify-content-md-center justify-content-sm-center justify-content-center">
+						<div class="pillar__single wow fadeInRight" data-wow-delay="0s">
+							<div class="pillar__single__inner">
+								<img class="pillar__single__icon" src="images/pillars/pillar-icon-1.png" alt="pillar 1">
+								<h3>Kalima</h3>
+							</div>
+						</div>
+						<div class="pillar__single wow fadeInRight" data-wow-delay="0.1s">
+							<div class="pillar__single__inner">
+								<img class="pillar__single__icon" src="images/pillars/pillar-icon-2.png" alt="pillar 2">
+								<h3>Salat</h3>
+							</div>
+						</div>
+						<div class="pillar__single wow fadeInRight" data-wow-delay="0.2s">
+							<div class="pillar__single__inner">
+								<img class="pillar__single__icon" src="images/pillars/pillar-icon-3.png" alt="pillar 3">
+								<h3>Zakat</h3>
+							</div>
+						</div>
+						<div class="pillar__single wow fadeInRight" data-wow-delay="0.3s">
+							<div class="pillar__single__inner">
+								<img class="pillar__single__icon" src="images/pillars/pillar-icon-4.png" alt="pillar 4">
+								<h3>Siam</h3>
+							</div>
+						</div>
+						<div class="pillar__single wow fadeInRight" data-wow-delay="0.4s">
+							<div class="pillar__single__inner">
+								<img class="pillar__single__icon" src="images/pillars/pillar-icon-5.png" alt="pillar 5">
+								<h3>HAJJ</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!-- //Pillar Of Islam -->
+			<!-- Activities area -->
+			<section class="cr-section activities-area bg--white pt--120 pb--130">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
+							<div class="section-title text-center">
+								<h4>Our “Services”</h4>
+								<h2>Here is our Services</h2>
+								<p>
+									<span>Islam</span> is the know how to pursue pleasure rationally encounter
+									consequences that are extremely painful again is there anyone who loves or pursues
+									or desires to obtain pain of itself
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="activity-slider-active slider-arrow--style2">
+
+						<!-- Single Activity -->
+						<div class="activity-wrap">
+							<figure class="activity">
+								<div class="activity__thumb">
+									<a href="#">
+										<img src="images/activity/1.jpg" alt="activity image">
+									</a>
+								</div>
+								<figcaption class="activity__content text-center">
+									<h3><a href="#">Quran Learning</a></h3>
+									<p>
+										Islam is the know how to pursuesure rationally encounter consequences extremely
+										painful again we love islam for peace
+									</p>
+								</figcaption>
+							</figure>
+						</div><!-- //Single Activity -->
+						<!-- Single Activity -->
+						<div class="activity-wrap">
+							<figure class="activity">
+								<div class="activity__thumb">
+									<a href="#">
+										<img src="images/activity/2.jpg" alt="activity image">
+									</a>
+								</div>
+								<figcaption class="activity__content text-center">
+									<h3><a href="#">Funeral Service</a></h3>
+									<p>
+										Islam is the know how to pursuesure rationally encounter consequences extremely
+										painful again we love islam for peace
+									</p>
+								</figcaption>
+							</figure>
+						</div><!-- //Single Activity -->
+						<!-- Single Activity -->
+						<div class="activity-wrap">
+							<figure class="activity">
+								<div class="activity__thumb">
+									<a href="#">
+										<img src="images/activity/3.jpg" alt="activity image">
+									</a>
+								</div>
+								<figcaption class="activity__content text-center">
+									<h3><a href="#">Mosque Development</a></h3>
+									<p>
+										Islam is the know how to pursuesure rationally encounter consequences extremely
+										painful again we love islam for peace
+									</p>
+								</figcaption>
+							</figure>
+						</div><!-- //Single Activity -->
+						<!-- Single Activity -->
+						<div class="activity-wrap">
+							<figure class="activity">
+								<div class="activity__thumb">
+									<a href="#">
+										<img src="images/activity/1.jpg" alt="activity image">
+									</a>
+								</div>
+								<figcaption class="activity__content text-center">
+									<h3><a href="#">Quran Learning</a></h3>
+									<p>
+										Islam is the know how to pursuesure rationally encounter consequences extremely
+										painful again we love islam for peace
+									</p>
+								</figcaption>
+							</figure>
+						</div><!-- //Single Activity -->
+						<!-- Single Activity -->
+						<div class="activity-wrap">
+							<figure class="activity">
+								<div class="activity__thumb">
+									<a href="#">
+										<img src="images/activity/2.jpg" alt="activity image">
+									</a>
+								</div>
+								<figcaption class="activity__content text-center">
+									<h3><a href="#">Funeral Service</a></h3>
+									<p>
+										Islam is the know how to pursuesure rationally encounter consequences extremely
+										painful again we love islam for peace
+									</p>
+								</figcaption>
+							</figure>
+						</div><!-- //Single Activity -->
+						<!-- Single Activity -->
+						<div class="activity-wrap">
+							<figure class="activity">
+								<div class="activity__thumb">
+									<a href="#">
+										<img src="images/activity/3.jpg" alt="activity image">
+									</a>
+								</div>
+								<figcaption class="activity__content text-center">
+									<h3><a href="#">Mosque Development</a></h3>
+									<p>
+										Islam is the know how to pursuesure rationally encounter consequences extremely
+										painful again we love islam for peace
+									</p>
+								</figcaption>
+							</figure>
+						</div><!-- //Single Activity -->
+
+					</div>
+				</div>
+			</section><!-- //Activities area -->
+			<!-- Salat times area -->
+			<section class="cr-section salat-times-area">
+				<div class="salat-times large--width d-flex align-items-center justify-content-center">
+					<div class="salat-times__inner text-center">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-10 offset-lg-1">
+									<h2>Time of Salat</h2>
+									<h4>Prayer Times</h4>
+									<div class="salat-times__boxes d-flex flex-sm-wrap flex-wrap justify-content-md-between justify-content-center flex-md-nowrap">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!-- //Salat times area -->
+			<!-- Upcoming Events -->
+			<section class="cr-section events-area bg--white ptb--150">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
+							<div class="section-title text-center">
+								<h4>Our “Events”</h4>
+								<h2>Upcoming Events</h2>
+								<p>
+									<span>Islam</span> is the know how to pursue pleasure rationally encounter
+									consequences that are extremely painful again is there anyone who loves or pursues
+									or desires to obtain pain of itself
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="events2">
+
+								<!-- Event Single -->
+								<article class="event-single video--event">
+									<div class="event-single__thumb">
+										<a class="video--trigger" href="https://www.youtube.com/watch?v=6I40BWTk95E">
+											<img src="images/event/layout-2/1.jpg" alt="event thumb">
+										</a>
+										<div class="event-single__date">
+											<h3>23 December, 2024</h3>
+										</div>
+									</div>
+									<div class="event-single__content">
+										<h3><a href="#">Importance of Hajj in Islam</a></h3>
+										<p><strong>Ramadan</strong> is the know how to pursue pleasure ratio </p>
+										<div class="event-single__content__location">
+											<p><i class="icofont icofont-institution"></i>Clongriffin Community Centre</p>
+											<p><i class="icofont icofont-wall-clock"></i> 03.00 am to 05.30pm</p>
+										</div>
+									</div>
+								</article><!-- //Event Single -->
+								<!-- Event Single -->
+								<article class="event-single">
+									<div class="event-single__thumb">
+										<a href="#">
+											<img src="images/event/layout-2/2.jpg" alt="event thumb">
+										</a>
+										<div class="event-single__date">
+											<h3>15 December, 2024</h3>
+										</div>
+									</div>
+									<div class="event-single__content">
+										<h3>
+											<a href="#">Salat is the way to get closer to Allah</a>
+										</h3>
+										<p><strong>Ramadan</strong> is the know how to pursue pleasure ratio </p>
+										<div class="event-single__content__location">
+											<p><i class="icofont icofont-institution"></i>Clongriffin Community Centre</p>
+											<p><i class="icofont icofont-wall-clock"></i> 03.00 am to 05.30pm</p>
+										</div>
+									</div>
+								</article><!-- //Event Single -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!-- //Upcoming Events -->
+			<!--  Offer Donation Area -->
+			<div class="offer-donation-area bg--pattern ptb--90">
+				<div class="offer-donation__inner d-flex flex-wrap flex-lg-nowrap align-items-center" style="padding: 0 125px;">
+					<div class="">
+						<div class="donation-wantend text-center">
+							<h2>Contact us any time...</h2>
+							<h5>Clongriffin Community Centre</h5>
+							<p>
+								Islam is the know how to pursue pleasure rationally encounter consequences that are
+								extremely painful again is there anyone who loves or pursues or desires to obtain pain
+								of itself
+							</p>
+							<br />
+							<a class="cr-btn cr-btn--black" href="#"><span>Contact Now</span></a>
+						</div>
+					</div>
+				</div>
+			</div><!-- // Offer Donation Area -->
+			<!-- Blog Area -->
+			<section class="cr-section blog-area pt--150 pb--140 bg--white">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 offset-0">
+							<div class="section-title text-center">
+								<h4>From “Programs”</h4>
+								<h2>Latest Programs</h2>
+								<p>
+									Islam is the know how to pursue pleasure rationally encounter consequences that are
+									extremely painful again is there anyone who loves or pursues or desires to obtain
+									pain of itself
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+
+						<!-- Start Single Blog -->
+						<div class="col-lg-6 col-md-6 col-xl-3">
+							<article class="blog wow fadeInUp">
+								<div class="blog__thumb">
+									<a href="#">
+										<img src="images/blog/1.jpg" alt="single blog thumb">
+									</a>
+								</div>
+								<div class="blog__content">
+									<div class="blog__content__meta">
+										<p>December 20, 2024 - <a href="blogs.html">Afser</a></p>
+									</div>
+									<h4 class="blog-title">
+										<a href="#">
+											Islam is the only one way for
+											peace
+										</a>
+									</h4>
+									<p>Islam is the know how to pursuesure nally encounter consequences extremely </p>
+									<a href="#" class="cr-readmore">Read</a>
+								</div>
+							</article>
+						</div><!-- //Start Single Blog -->
+						<!-- Start Single Blog -->
+						<div class="col-lg-6 col-md-6 col-xl-3">
+							<article class="blog wow fadeInUp">
+								<div class="blog__thumb">
+									<a href="#">
+										<img src="images/blog/2.jpg" alt="single blog thumb">
+									</a>
+								</div>
+								<div class="blog__content">
+									<div class="blog__content__meta">
+										<p>December 18, 2024 - <a href="blogs.html">Julfiqar</a></p>
+									</div>
+									<h4 class="blog-title">
+										<a href="#">
+											Salat can help us to move closer
+											to Allah
+										</a>
+									</h4>
+									<p>Islam is the know how to pursuesure nally encounter consequences extremely </p>
+									<a href="#" class="cr-readmore">Read</a>
+								</div>
+							</article>
+						</div><!-- //Start Single Blog -->
+						<!-- Start Single Blog -->
+						<div class="col-lg-6 col-md-6 col-xl-3">
+							<article class="blog wow fadeInUp">
+								<div class="blog__thumb">
+									<a href="#">
+										<img src="images/blog/3.jpg" alt="single blog thumb">
+									</a>
+								</div>
+								<div class="blog__content">
+									<div class="blog__content__meta">
+										<p>December 15, 2024 - <a href="blogs.html">Iftekhar</a></p>
+									</div>
+									<h4 class="blog-title">
+										<a href="#">
+											Ramadan teach us how to realize
+											fasting
+										</a>
+									</h4>
+									<p>Islam is the know how to pursuesure nally encounter consequences extremely </p>
+									<a href="#" class="cr-readmore">Read</a>
+								</div>
+							</article>
+						</div><!-- //Start Single Blog -->
+						<!-- Start Single Blog -->
+						<div class="col-lg-6 col-md-6 col-xl-3">
+							<article class="blog wow fadeInUp">
+								<div class="blog__thumb">
+									<a href="#">
+										<img src="images/blog/4.jpg" alt="single blog thumb">
+									</a>
+								</div>
+								<div class="blog__content">
+									<div class="blog__content__meta">
+										<p>December 12, 2024 - <a href="blogs.html">Momen</a></p>
+									</div>
+									<h4 class="blog-title">
+										<a href="#">
+											Learn about Islam, It is very
+											simple & realistic
+										</a>
+									</h4>
+									<p>Islam is the know how to pursuesure nally encounter consequences extremely </p>
+									<a href="#" class="cr-readmore">Read</a>
+								</div>
+							</article>
+						</div><!-- //Start Single Blog -->
+
+					</div>
+				</div>
+			</section><!-- //Blog Area -->
+
+		</main><!-- //Page Conent -->
+		<!-- Footer -->
+		<footer id="footer" class="footer-area fixed--footer">
+
+			<!-- Footer Copyright -->
+			<div class="footer__copyright bg--dark ptb--20">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12" style="text-align:center">
+							<p>Copyright © <a href="#">Clongriffin Community Centre</a>, All rights Reserved, 2024</p>
+							<p>Number Of Visitors : 3522</p>
+							<br>
+							<p style="border:1px solid white;padding:5px"> Powered by <a href="https://iser.ie" target="_blank" style="font-size:25px">ISER</a></p>
+						</div>
+					</div>
+				</div>
+			</div><!-- //Footer Copyright -->
+
+		</footer><!-- //Footer -->
+
+
+	</div><!-- //Main wrapper -->
+
+	<a href="https://api.whatsapp.com/send?phone=00000000&amp;text=" class="float" target="_blank">
+		<i class="fa fa-whatsapp  my-float"></i>
+	</a>
+	<div class="copy2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<img src="images/happy_ico_02.png" class="opinion" onclick="ShowDiv()">
+					<div class="opinions display2" id="DivSatisfaction" style="display:none">
+						<h5 style="color:#ef4826;text-align:center">  Visitor satisfaction index </h5>
+						<a href="#" onclick="SelectSatesfaction(1)">
+							<img src="images/hf_01.png">
+						</a>
+						<a href="#" onclick="SelectSatesfaction(2)">
+							<img src="images/hf_02.png">
+						</a>
+						<a href="#" onclick="SelectSatesfaction(3)">
+							<img src="images/hf_03.png">
+						</a>
+						<a href="#" onclick="SelectSatesfaction(4)">
+							<img src="images/hf_04.png">
+						</a>
+						<a href="#" onclick="SelectSatesfaction(5)">
+							<img src="images/hf_05.png">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- JS Files -->
+	<script src="js/vendor/jquery-3.6.0.min.js"></script>
+	<script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/PrayTimes.js"></script>
+	<script src="js/active.js"></script>
+	<script src="js/scripts.js"></script>
+
+	<script>
+		function ShowDiv() {
+			if ($("#DivSatisfaction").is(":visible")) {
+				$("#DivSatisfaction").hide('slow');
+			}
+			else {
+				$("#DivSatisfaction").show('slow');
+			}
+		}
+
+		function SelectSatesfaction(Id) {
+			//$.ajax({
+			//	url: '/Website/SelectSatesfaction',
+			//	type: 'get',
+			//	data: { Id: Id },
+			//	success: function (data) {
+			//		if (data == "Done") {
+			//			toastr.success("تمت العملية بنجاح");
+			//		}
+			//		else {
+			//			toastr.error("تم ارسال مؤشر الرضا من قبل");
+			//		}
+			//	},
+			//	error: function (XMLHttpRequest, textStatus, errorThrown) { }
+			//});
+		}
+	</script>
+
+</body>
+
+</html>
